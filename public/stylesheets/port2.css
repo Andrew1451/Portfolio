@@ -1,0 +1,122 @@
+/*html {*/
+/*    min-height: 100%;*/
+/*    width: 100%;*/
+/*}*/
+
+/*body {*/
+/*    background-color: black;*/
+/*    min-height: 100%;*/
+/*    width: 100%;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+
+/*ul {*/
+/*    list-style-type: none;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    border-bottom: .5px solid white;*/
+/*    width: 100%;*/
+/*}*/
+
+/*li {*/
+/*    padding: 1% 0;*/
+/*}*/
+
+/*li a {*/
+/*    display: block;*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*    text-transform: uppercase;*/
+/*    font-size: 12px;*/
+/*    white-space: nowrap;*/
+/*}*/
+
+/*a {*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*}*/
+
+/*li a:hover {*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*i:hover {*/
+/*    color: lime;*/
+/*}*/
+
+/*#icon {*/
+/*    padding: .8% 0;*/
+/*    margin-left: 30px;*/
+/*    margin-right: 20px;*/
+/*}*/
+
+/*.fa-desktop {*/
+/*    margin-top: 3.5px;*/
+/*    font-size: 15px;*/
+/*}*/
+
+/* ---- RESUME SECTION ---- */
+
+/*#resback {*/
+/*    height: 90%;*/
+/*    width: 50%;*/
+/*    background-color: rgb(252, 255, 244);*/
+/*    font-family: Arial;*/
+/*    margin: 5% auto;*/
+/*    padding: 3% 5%;*/
+/*}*/
+
+/*#resback h2 {*/
+/*    text-align: center;*/
+/*}*/
+
+/*.dates {*/
+/*    float: right;*/
+/*}*/
+
+/*#titlehr {*/
+/*    width: 35%;*/
+/*}*/
+
+/*.resumehr {*/
+/*    width: 40%;*/
+/*    display: block;*/
+/*    float: left;*/
+/*    margin-right: 100%;*/
+/*    margin-bottom: 3%;*/
+/*}*/
+
+/*.resumecolor {*/
+/*    color: darkred;*/
+/*}*/
+
+/*.resheader {*/
+/*    text-align: center;*/
+/*    padding-bottom: 1%;*/
+/*}*/
+
+/*#centercontent {*/
+/*    display: flex;*/
+/*    justify-content: space-evenly;*/
+/*}*/
+
+/*@media only screen and (max-width: 800px) {*/
+/*    #centercontent {*/
+/*        flex-direction: column;*/
+/*    }*/
+/*    #phone {*/
+/*        padding-bottom: 2%;*/
+/*    }*/
+/*    .jobtitle {*/
+/*        display: block;*/
+/*        padding-top: 2%;*/
+/*    }*/
+/*    .dates {*/
+/*        padding-top: 2%;*/
+/*        display: block;*/
+/*        float: none;*/
+/*    }*/
+/*}*/
