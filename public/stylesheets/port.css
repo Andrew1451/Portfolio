@@ -71,6 +71,7 @@ li a:hover {
 
 .header2 {
     padding-left: 2%;
+    white-space: nowrap;
 }
 
 .top {
@@ -212,5 +213,30 @@ table {
 @media only screen and (max-width: 899px) {
     .header {
         font-size: 50px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #icon {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .header {
+        font-size: 40px;
+    }
+    #name {
+        font-size: 30px;
+    }
+    table, td {
+        font-size: 19px;
+    }
+    .alldivs {
+        width: 90%;
+        margin: 0;
+    }
+    #resback {
+        width: 90%;
+        margin: 0;
     }
 }
