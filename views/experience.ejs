@@ -1,14 +1,70 @@
-<% include header %>
-<div class="aboutMe animation alldivs">
-    <p>
-        I owe a lot of my experience to the completetion of Udemy's in-depth bootcamp, The Web Developer Bootcamp. It covered
-        everything from HTML, CSS, and JavaScript on the frontend, to Node.js, Express, MongoDB, and Mongoose on the backend. I 
-        was able to build websites and applications while incorperating libraries such as jQuery, Bootstrap, and Semantic UI. We 
-        saw the power of APIs and the convenience of frameworks. Our final project was a dynamic website called YelpCamp. People 
-        can make an account, submit pictures/descriptions of campgrounds, leave comments and edit comments, among other things. 
-        This is where I got experience creating and interacting with a database, making schemas and data association, dealing with 
-        RESTful routing, authentication, and embedded javascript. I am currently working on this page to add pictures, explanations,
-        and links. Update coming soon!
-    </p>
-</div>
-<% include footer %>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheets/port2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <ul class="navbar">
+      <li id="icon"><a href="/"><i class="fas fa-desktop"></i></a></li>
+      <li id="resume"><a href="/resume">resumé</a></li>
+      <li><a href="/experience">experience</a></li>
+      <li><a href="/contact">contact</a></li>
+      <li id="about"><a href="/about">about me</a></li>
+    </ul>
+    <div class="experience1">
+        <div id="experienceborder">
+            <p>
+            I owe a lot of my experience to the completetion of Udemy's in-depth bootcamp, The Web Developer Bootcamp. It covered
+            everything from HTML, CSS, and JavaScript on the frontend, to Node.js, Express, MongoDB, and Mongoose on the backend. I 
+            was able to build websites and applications while incorperating libraries such as jQuery, Bootstrap, and Semantic UI. We 
+            saw the power of APIs and the convenience of frameworks. Our final project was a dynamic website called YelpCamp. People 
+            can make an account, submit pictures/descriptions of campgrounds, leave comments and edit comments, among other things. 
+            This is where I got experience creating and interacting with a database, making schemas and data association, dealing with 
+            RESTful routing, authentication, and embedded javascript.
+            </p>
+        </div>
+    </div>
+    <img class="images" src="/images/imagegallery2.png">
+    <img class="images" src="/images/imagegallery1.png">
+    <img class="images" src="/images/pattern.png">
+    <img class="images" src="/images/article.png">
+    <img class="images" src="/images/candymuseum.png">
+    <img class="images" src="/images/purrfect.png">
+    <img class="images" src="/images/colorgame.png">
+    <div class="description">
+        <p id="bluetext">
+            This Color Game is very JavaScript heavy. It generates a random RGB (Red, Green, Blue) color code, then generates
+            six random colored squares. One square matches the color code up top. If you click a square to guess and it's wrong,
+            it fades away. When you guess correctly, the banner up top, along with all the squares, changes to the correct color.
+            Colors are made by producing an array of three random numbers between 0 and 255. The squares change color by assigning
+            different classes via event handlers.
+        </p>
+    </div>
+    <img class="images" id="battleship" src="/images/battleship.png">
+    <div class="description">
+        <p id="greentext">
+            Battleship was also made mostly with Javascript. Using logic to make sure the player has a valid guess, then 
+           applying a class to the associated square. It also keeps the state of the game: how many guesses, how many hits, how many 
+           ships are left until the game is over, etc. I made sure to write the structure and logic using dynamic variables so if I 
+           decided to change the number of ships or the number of squares, it would still work properly. I wouldn't have to rewrite a 
+           lot of hard coded numbers to make everything work correctly.
+        </p>
+    </div>
+    <img class="images" src="/images/yelpcamp.png">
+    <div class="description">
+        <p id="skybluetext">
+            The main focus for YelpCamp was on the backend, but by using embedded JavaScript, I was able to pull information from the
+            server side, and dynamically show it on the front end. Users can sign in, fill out a form to submit a campground, and leave
+            comments. That is all stored in a database (MongoDB/Mlab), and the data is associated with the correct users. The CRUD system
+            and RESTful routing get put to good use here. When opening a page, data is taken from the database, passed into the page
+            that's being rendered under variable names, and the variables are used right in the markup for that page. The embedded
+            JavaScript makes the website very dynamic. 
+        </p>
+    </div>
+</body>
+</html>
