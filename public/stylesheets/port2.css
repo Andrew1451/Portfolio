@@ -138,3 +138,12 @@ li a:hover {
         font-size: 17px;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .images {
+        height: 300px;
+    }
+    .experience1 p {
+        font-size: 14px;
+    }
+}
