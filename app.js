@@ -1,5 +1,6 @@
 var express = require("express");
 var app     = express();
+var port    = 3000;
 
 app.set("view engine", "ejs");
 app.use(express.static("public"));
@@ -24,6 +25,9 @@ app.get("/about", function(req, res) {
     res.render("about");
 });
 
-app.listen(process.env.PORT, process.env.IP, function() {
-    console.log("Server running..");
+// app.listen(process.env.PORT, process.env.IP, function() {
+//     console.log("Server running.. ");
+// });
+app.listen(port, function() {
+    console.log("Server running.. " + port);
 });

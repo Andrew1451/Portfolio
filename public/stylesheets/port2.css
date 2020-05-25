@@ -81,11 +81,20 @@ li a:hover {
     width: 100%;
 }
 
+.fit {
+    box-sizing: border-box;
+    border: 1px solid #00ff0052;
+}
+
 .images {
     width: 48.7%;
     height: 438px;
     float: left;
     margin: .1% .1%;
+}
+
+.leftimages {
+    margin-left: 1%;
 }
 
 .description {
@@ -111,7 +120,40 @@ li a:hover {
     color: aqua;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1700px) {
+    .experience {
+      width: 70%;
+      margin: 0 auto;
+      padding: 10% 10%;
+    }
+    .experience p {
+      font-size: 21px;
+    }
+    .images {
+      height: 600px;
+    }
+    .description {
+      font-size: 20px;
+      padding: 0 10%;
+      padding-top: 9%;
+      padding-bottom: 15%;
+    }
+}
+  
+@media only screen and (min-width: 1495px) and (max-width: 1699px) {
+    .images {
+        height: 500px;
+        margin: .1% .1%;
+    }
+    .description {
+        padding-bottom: 11%
+    }
+    .leftimages {
+        margin-left: 1%;
+    }
+}
+  
+@media only screen and (max-width: 1220px) {
     .images {
         width: 70%;
         margin: 1% auto;
@@ -129,12 +171,12 @@ li a:hover {
         border: 1px solid lime;
     }
 }
-
+  
 @media only screen and (max-width: 720px) {
     .images {
         width: 90%;
     }
-    .experience1 p {
+    .experience p {
         font-size: 17px;
     }
 }
@@ -143,7 +185,13 @@ li a:hover {
     .images {
         height: 300px;
     }
-    .experience1 p {
+    .experience p {
         font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .images {
+        height: 250px;
     }
 }
