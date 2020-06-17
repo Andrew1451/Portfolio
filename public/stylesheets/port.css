@@ -25,6 +25,7 @@ ul {
 
 li {
     padding: 1% 0;
+    margin-top: 6px;
 }
 
 li a {
@@ -49,9 +50,14 @@ p a {
     color: blue;
 }
 
+#resback p {
+    word-break: break-word;
+}
+
 #icon {
     padding: .8% 0;
-    margin-left: 30px;
+    margin-top: 2px;
+    margin-bottom: 5px;
 }
 
 .fa-desktop {
@@ -153,11 +159,11 @@ table {
 /* RESUME PAGE */
 
 #resback {
-    height: 90%;
-    width: 50%;
+    box-sizing: border-box;
+    height: 100%;
+    width: fit-content;
     background-color: rgb(252, 255, 244);
     font-family: Arial;
-    margin: 5% auto;
     padding: 3% 5%;
 }
 
@@ -223,6 +229,17 @@ table {
     }
 }
 
+@media only screen and (min-width: 1000px) {
+    #resback {
+        width: 75%;
+        max-width: 1050px;
+        margin: 5% auto;
+    }
+    .navbar {
+        border-bottom: .5px solid white;
+    }
+}
+
 @media only screen and (max-width: 899px) {
     .header {
         font-size: 50px;
@@ -230,7 +247,7 @@ table {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     li a {
         padding-top: 2%;
     }
@@ -258,10 +275,6 @@ table {
         margin-top: 23%;
     }
     .alldivs {
-        width: 90%;
-        margin: 0;
-    }
-    #resback {
         width: 90%;
         margin: 0;
     }
