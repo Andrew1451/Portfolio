@@ -70,6 +70,7 @@ li a:hover {
     font-family: Times;
     font-size: 17px;
     text-align: center;
+    line-height: 1.4em;
     margin: 0;
     color: white;
 }
@@ -79,6 +80,8 @@ li a:hover {
     padding: 2% 2%;
     background-color: black;
     width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
 }
 
 .fit {
@@ -118,6 +121,10 @@ li a:hover {
 
 #skybluetext {
     color: aqua;
+}
+
+#experienceborder .lime-font {
+    color: lime;
 }
 
 @media only screen and (min-width: 1700px) {
@@ -187,6 +194,7 @@ li a:hover {
     }
     .experience1 p {
         font-size: 20px;
+        line-height: 1.5em;
     }
 }
 
