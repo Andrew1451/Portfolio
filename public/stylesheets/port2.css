@@ -115,6 +115,10 @@ li a:hover {
     color: lime;
 }
 
+.lime-font {
+    color: lime;
+}
+
 #bluetext {
     color: #78baf0;
 }
@@ -123,9 +127,28 @@ li a:hover {
     color: aqua;
 }
 
-#experienceborder .lime-font {
+#experienceborder {
     color: lime;
 }
+
+.summary {
+    float: left;
+    height: 438px;
+    max-height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+
+.summary p {
+    width: 69%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
 
 @media only screen and (min-width: 1700px) {
     .experience {
@@ -176,6 +199,14 @@ li a:hover {
     }
     #battleship {
         border: 1px solid lime;
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    .summary {
+        width: 57%;
+        position: relative;
+        left: 21%;
     }
 }
   
