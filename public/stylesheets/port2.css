@@ -136,6 +136,22 @@ li a:hover {
     color: lime;
 }
 
+#music-hr {
+    width: 11%;
+    margin: 16px;
+    border-color: #23f973;
+}
+
+#music-a {
+    text-decoration: none;
+    color: #01b7ee;
+    font-size: 17px;
+}
+
+#music-a:hover {
+    color: #23f973
+}
+
 .summary {
     float: left;
     height: 438px;
@@ -232,7 +248,7 @@ li a:hover {
         font-size: 20px;
         line-height: 1.5em;
     }
-    .summary p {
+    .summary p, #music-a {
         font-size: 19px;
     }
 }
