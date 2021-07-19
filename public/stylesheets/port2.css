@@ -136,10 +136,16 @@ li a:hover {
     color: lime;
 }
 
-#music-hr {
+.music-hr {
     width: 11%;
     margin: 16px;
     border-color: #23f973;
+}
+
+#joke-a {
+    text-decoration: none;
+    color: #6ac6ff;
+    font-size: 17px;
 }
 
 #music-a {
@@ -148,7 +154,7 @@ li a:hover {
     font-size: 17px;
 }
 
-#music-a:hover {
+#music-a:hover, #joke-a:hover {
     color: #23f973
 }
 
@@ -248,7 +254,7 @@ li a:hover {
         font-size: 20px;
         line-height: 1.5em;
     }
-    .summary p, #music-a {
+    .summary p, #music-a, #joke-a {
         font-size: 19px;
     }
 }
