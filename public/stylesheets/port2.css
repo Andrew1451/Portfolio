@@ -99,6 +99,7 @@ li a:hover {
     height: 438px;
     float: left;
     margin: .1% .1%;
+    opacity: 0;
 }
 
 .leftimages {
@@ -175,7 +176,38 @@ li a:hover {
     margin-bottom: 0;
 }
 
+@keyframes fromLeft {
+    from {
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 
+@keyframes fromRight {
+    from {
+        transform: translateX(150px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fromBottom {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
 @media only screen and (min-width: 1700px) {
     .experience {
