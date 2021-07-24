@@ -160,6 +160,22 @@ li a:hover {
     color: #23f973
 }
 
+#fitness-hr {
+    width: 11%;
+    margin: 16px;
+    border-color: #00e2ff;
+}
+
+#fitness-a {
+    text-decoration: none;
+    color: lime;
+    font-size: 17px;
+}
+
+#fitness-a:hover {
+    color: #00e2ff;
+}
+
 .summary {
     float: left;
     height: 438px;
@@ -310,7 +326,7 @@ li a:hover {
         font-size: 20px;
         line-height: 1.5em;
     }
-    .summary p, #music-a, #joke-a {
+    .summary p, #music-a, #joke-a, #fitness-a {
         font-size: 19px;
     }
 }
